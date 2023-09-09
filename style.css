@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    border: solid 40px lavenderblush;
+}
+
+#nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 14vh;
+    background: linear-gradient(60deg,rgb(215,215,215), rgb(255,255,255));
+    border-radius: 5px;
+}
+
+#nav .links{
+    display: flex;
+    gap: 24px;
+}
+
+.links a:hover{
+    background-color: aquamarine;
+    padding: 15px 15px;
+    border-radius: 20px;
+}
+
+.links a{
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'voyage';
+    padding: 10px 10px;
+}
+
+#nav h3{
+    text-transform: uppercase;
+    font-weight: 540;
+    color: rgb(6, 89, 245);
+    font-size: 1.5rem;
+
+}
+
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background: #c5f7f7 url(ee.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode:lighten;
+    opacity: 0.95;
+    border-radius: 5px;
+}
+
+#main #nav h3 span{
+    font-weight: 1000;
+}
+
+#heading p{
+    width: 70%;
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 18px;
+    color: rgb(255, 167, 4);
+}
+
+#heading button{
+    padding: 15px 30px;
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#heading h1{
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-family: 'Rubik Iso', cursive;
+    font-size: 45px;
+}
+
+.amaze{
+    width: 100%;
+    height: 150vh;
+    border-radius: 5px;
+}
+.amaze img{
+    width: 100%;
+    height: 132vh;
+
+}
+
+.det{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    border-radius: 5px;
+    align-items: center;
+    padding: 10vw 5vw;
+    margin-top: 5vw;
+    padding-bottom:  5px;
+}
+
+.dLeft{
+    width: 48%;
+    border-right: 3px solid #000;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.mdet h2{
+    text-align: right;
+}
+
+.mdet p{
+    font-size: 14px;
+    color: red;
+}
+
+.mdet span{
+    color: blue;
+}
+
+.dRight{
+    width: 48%;
+}
+
+.fdets p{
+    padding: 12px 0;
+    font-size: 14px;
+}
+.links{
+    font-size: 1rem;
+}
+
+.links a{
+    color: black;
+}
+
+.imag{
+    width: 8vw;
+    height: 6vw;
+    padding: 5px 15px;
+}
+
+#imgg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#vidd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.fdets h3{
+    text-align: center;
+}
+
+    /* Footer Styles */
+footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    text-align: center;
+}
